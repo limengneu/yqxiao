@@ -1,0 +1,11 @@
+ #set($layout="ignoreLayout")
+	<link rel="stylesheet" href="/css/bootstrap-responsive.min.css"></link>
+	<link rel="stylesheet" href="/css/bootstrap.min.css"></link>
+ <div class="container">
+      <!-- Main hero unit for a primary marketing message or call to action -->
+	  <div class="hero-unit">
+		 
+        <h2>Upload, Fail!</h2>
+        <h3>$queryString</h3>
+      </div>
+</div>

@@ -1,0 +1,9 @@
+target/
+*~
+*.log
+*.log.*
+*.swp
+*.class
+.settings/
+.project
+.classpath

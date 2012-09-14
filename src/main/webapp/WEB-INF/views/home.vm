@@ -1,0 +1,24 @@
+ <div class="container">
+      <!-- Main hero unit for a primary marketing message or call to action -->
+
+        <p><a class="btn btn-primary btn-large" href="/vedio/upload">Upload Vedio </a></p>
+		<p><a class="btn btn-primary btn-large" href="/courses/create">创建课程 </a></p>
+ <div class="row">
+	<div class="span6">
+<ul class="thumbnails">
+	
+  #foreach($vedio in $vedios)
+
+  <li class="span3">
+    <div class="thumbnail">
+      <a href="/vedio/${vedio.id}" target="_blank"><img src="$vedio.image" width='200px' height='180px'></a>
+      <h5><a href="/vedio/${vedio.id}" target="_blank">${vedio.title}</a></h5>
+    </div>
+  </li>
+
+  #end
+  </ul>
+  </div>
+  </div>
+      <!-- Example row of columns -->
+</div>

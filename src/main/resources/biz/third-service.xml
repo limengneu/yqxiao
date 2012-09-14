@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:tx="http://www.springframework.org/schema/tx"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.0.xsd http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx.xsd">
+
+
+	<!-- httpclient线程池 -->
+	<bean id="connectionManagerParams"
+		class="org.apache.commons.httpclient.params.HttpConnectionManagerParams">
+		<property name="connectionTimeout" value="10000" />
+		<property name="soTimeout" value="10000" />
+		<property name="maxTotalConnections" value="30" />
+		<property name="defaultMaxConnectionsPerHost" value="20" />
+	</bean>
+	<bean id="connectionManager"
+		class="org.apache.commons.httpclient.MultiThreadedHttpConnectionManager">
+		<property name="params" ref="connectionManagerParams" />
+	</bean>
+	<bean id="httpClient" class="org.apache.commons.httpclient.HttpClient">
+		<constructor-arg>
+			<ref bean="connectionManager" />
+		</constructor-arg>
+	</bean>
+
+	<bean id="thridVedioService" class="com.yiqixiao.biz.thrid.impl.ThridVedioServiceImpl">
+		<property name="appkey" value="3000000224" />
+		<property name="secret" value="b885ea102ec7547a" />
+		<property name="css" value="cDElM0RwMSUyNnAyJTNEcDIlMjZvbiUzRG9uJTI2b24lM0RvbiUyNm9uJTNEb24lMjZwbyUzRHBvJTI2bCUzRGNuJTI2YyUzRHAxMSUyNmklM0Qx" />
+		<property name="ourl" value="http://115.238.73.23:8162/vedio/sucess" />
+		<property name="rurl" value="http://115.238.73.23:8162/vedio/fail" />
+		<property name="vedioPublic" value="n" />
+		<property name="uploadUrl" value="http://oapi.56.com/video/custom.plugin" />
+	</bean>
+	
+</beans>

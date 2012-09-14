@@ -1,0 +1,10 @@
+ <div class="container">
+      <!-- Main hero unit for a primary marketing message or call to action -->
+	  <div class="hero-unit">
+        <h2>上传视频</h2>
+                 <iframe  scrolling="no" frameborder="0" src="$uploadResult" style="height:500px;width:580px;"></iframe>
+      </div>
+      <!-- Example row of columns -->
+      <div class="row">
+      </div>
+</div>

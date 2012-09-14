@@ -1,0 +1,13 @@
+#set($layout="ignoreLayout")
+	<link rel="stylesheet" href="/css/bootstrap-responsive.min.css"></link>
+	<link rel="stylesheet" href="/css/bootstrap.min.css"></link>
+
+
+ <div class="container">
+      <!-- Main hero unit for a primary marketing message or call to action -->
+	  <div class="hero-unit">  
+        <h2> 你的视频 ${successVedio.title} 上传成功  <a href="/vedio/${successVedio.id}" target="_blank">点击播放 </a>  </h2>
+     </div>
+      <!-- Example row of columns -->
+</div>
+	
