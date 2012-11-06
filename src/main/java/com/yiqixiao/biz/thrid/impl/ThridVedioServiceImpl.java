@@ -10,12 +10,11 @@ package com.yiqixiao.biz.thrid.impl;
 
 import java.net.URLEncoder;
 
-import org.apache.commons.codec.digest.DigestUtils;
-import org.joda.time.DateTime;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import com.yiqixiao.biz.thrid.ThridVedioService;
+import com.yiqixiao.biz.thrid.util.BuildSignUtils;
 import com.yiqixiao.biz.thrid.util.VedioUploadConstans;
 
 
@@ -72,15 +71,15 @@ public class ThridVedioServiceImpl implements ThridVedioService {
 	 * @throws Exception 
 	 */
 	private String buildUrlPrama(String sid) throws Exception {
-		String ts=getTsString();
+		String ts=BuildSignUtils.getTimeAsString();
 	
 		StringBuilder param=new StringBuilder();
 		param.append(VedioUploadConstans.VEDIO_APPKEY);param.append("=");param.append(URLEncoder.encode(appkey, "UTF-8"));
 		param.append("&");
-//		param.append(VedioUploadConstans.VEDIO_SECRET);param.append("=");param.append(URLEncoder.encode(secret, "UTF-8"));
-//		param.append("&");
 		param.append(VedioUploadConstans.VEDIO_TS);param.append("=");param.append(URLEncoder.encode(ts, "UTF-8"));
 		param.append("&");
+		
+		
 		StringBuilder sortparam=new StringBuilder();
 		sortparam.append(VedioUploadConstans.VEDIO_CSS);sortparam.append("=");sortparam.append(URLEncoder.encode(css, "UTF-8"));
 		sortparam.append("&");
@@ -91,7 +90,9 @@ public class ThridVedioServiceImpl implements ThridVedioService {
 		sortparam.append(VedioUploadConstans.VEDIO_RURL);sortparam.append("=");sortparam.append(URLEncoder.encode(rurl, "UTF-8"));
 		sortparam.append("&");
 		sortparam.append(VedioUploadConstans.VEDIO_SID);sortparam.append("=");sortparam.append(URLEncoder.encode(sid, "UTF-8"));
-		String sign=buildSign(sortparam.toString(),ts);
+		
+		
+		String sign=BuildSignUtils.buildSign(sortparam.toString(),ts, appkey, secret);
 		param.append(sortparam);
 		param.append("&");
 		param.append(VedioUploadConstans.VEDIO_SIGN);param.append("=");param.append(URLEncoder.encode(sign, "UTF-8"));
@@ -99,21 +100,6 @@ public class ThridVedioServiceImpl implements ThridVedioService {
 		return param.toString();
 	}
 
-	private String buildSign(String orderparam,String ts) {
-
-		String req = DigestUtils.md5Hex(orderparam);
-
-		String secendDigest = req + "#" + appkey + "#" + secret + "#" + ts;
-
-		return DigestUtils.md5Hex(secendDigest);
-
-	}
-
-	private String getTsString() {
-		DateTime time = DateTime.now();
-		String ts = time.getMillis() + "";
-		return ts.substring(0, 10);
-	}
 
 	/**
 	 * @param appkey

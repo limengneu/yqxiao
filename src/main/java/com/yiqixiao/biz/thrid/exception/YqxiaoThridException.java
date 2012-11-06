@@ -14,26 +14,26 @@ package com.yiqixiao.biz.thrid.exception;
  * @作者：limeng
  * @创建时间：Aug 15, 20127:35:27 PM
  */
-public class SchoolThridException extends RuntimeException {
+public class YqxiaoThridException extends RuntimeException {
 
 	/**
 	 * @FieldsserialVersionUID:TODO
 	 */
 	private static final long serialVersionUID = -2467355981870522825L;
 	
-	public SchoolThridException() {
+	public YqxiaoThridException() {
 		super();
 	}
 
-	public SchoolThridException(String message) {
+	public YqxiaoThridException(String message) {
 		super(message);
 	}
 
-	public SchoolThridException(String message, Throwable cause) {
+	public YqxiaoThridException(String message, Throwable cause) {
 		super(message, cause);
 	}
 
-	public SchoolThridException(Throwable e) {
+	public YqxiaoThridException(Throwable e) {
 		this(e.getMessage(), e);
 	}
 

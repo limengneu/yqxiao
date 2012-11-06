@@ -6,7 +6,7 @@
  * @作者：limeng
  * @时间：Aug 15, 20123:59:41 PM
  */
-package com.yiqixiao.teacher.controller;
+package com.yiqixiao.controller;
 
 import javax.servlet.http.HttpServletRequest;
 
@@ -21,7 +21,7 @@ import com.yiqixiao.biz.query.VedioQuery;
 import com.yiqixiao.biz.service.VedioService;
 import com.yiqixiao.common.paginator.Paginator;
 import com.yiqixiao.common.paginator.PaginatorConstants;
-import com.yiqixiao.teacher.utils.UrlPatternConsts;
+import com.yiqixiao.utils.UrlPatternConsts;
 
 /**
  * @描述：

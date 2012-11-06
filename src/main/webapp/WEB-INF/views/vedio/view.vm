@@ -3,7 +3,23 @@
 	  <div class="hero-unit">
 		
         <h2>${vedio.title}</h2>
-		<embed src='$vedioServer$vedio.realPath' type='application/x-shockwave-flash' allowFullScreen='true' width='100%' height='534px' allowNetworking='all' wmode='opaque' allowScriptAccess='always'></embed>
-      </div>
+		<embed src='$vedio.realPath' type='application/x-shockwave-flash' allowFullScreen='true' width='100%' height='534px' allowNetworking='all' wmode='opaque' allowScriptAccess='always'></embed>
+       
+	  
+		  <form class="form-horizontal">
+        <fieldset> 
+          <div class="control-group">
+            
+            <div class="controls">
+              <textarea class="input-xlarge" id="textarea" rows="3"></textarea>
+            </div>
+          </div>
+          <div class="form-actions">
+            <button id="comment-btn" type="button" class="btn btn-primary">发表评论</button>
+          </div>
+        </fieldset>
+      </form>
+		
+	  </div>
       <!-- Example row of columns -->
 </div>

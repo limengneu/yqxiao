@@ -6,7 +6,7 @@
  * @作者：limeng
  * @时间：Aug 16, 20128:15:56 PM
  */
-package com.yiqixiao.teacher.utils;
+package com.yiqixiao.utils;
 
 /**
  * @描述：
@@ -19,5 +19,7 @@ public class UrlPatternConsts {
 	public static final String VEDIO_VIEW = "/vedio/{vedioId}";
 	
 	public static final String VEDIO_List = "/vedios/{page}";
+	
+	public static final String THRID_LOGIN = "/login/{state}";
 
 }

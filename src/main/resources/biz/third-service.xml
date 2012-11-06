@@ -1,8 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <beans xmlns="http://www.springframework.org/schema/beans"
-	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:tx="http://www.springframework.org/schema/tx"
-	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.0.xsd http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx.xsd">
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:mvc="http://www.springframework.org/schema/mvc"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:tx="http://www.springframework.org/schema/tx"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+		http://www.springframework.org/schema/mvc http://www.springframework.org/schema/mvc/spring-mvc-3.0.xsd	
+		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-3.0.xsd
+		http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx.xsd" default-autowire="byName">
 
+<context:component-scan base-package="com.yiqixiao" /> 
 
 	<!-- httpclient线程池 -->
 	<bean id="connectionManagerParams"
@@ -31,5 +38,43 @@
 		<property name="vedioPublic" value="n" />
 		<property name="uploadUrl" value="http://oapi.56.com/video/custom.plugin" />
 	</bean>
+	
+	<bean id="vedioGetService" class="com.yiqixiao.biz.thrid.impl.VedioGetServiceImpl">
+		<property name="appkey" value="3000000224" />
+		<property name="secret" value="b885ea102ec7547a" />
+		<property name="vedioInfoUrl" value="http://oapi.56.com/video/getVideoInfo.json" />
+		<property name="channelUrl" value="http://oapi.56.com/video/channel.json" />
+	</bean>
+	
+	<bean id="oAuth2HttpsClient" class="com.yiqixiao.biz.thrid.login.OAuth2HttpsClient" init-method="init">
+		<property name="httpClient" ref="httpClient" />
+	</bean>
+	
+	   <bean id="weiboAuthLoginService" class="com.yiqixiao.biz.thrid.login.AuthLoginService">
+		<property name="oAuth2HttpsClient" ref="oAuth2HttpsClient" />
+		<property name="authTokenUrl" value="https://api.weibo.com/2/oauth2/access_token" />
+		<property name="userAccountUrl" value="https://api.weibo.com/2/account/get_uid.json" />
+		<property name="clientId" value="2322172098" />
+		<property name="clientSecret" value="ad0454afadab42b8e9b1c921a6d495d7" />
+		<property name="grantType" value="authorization_code" />
+		<property name="redirectUri" value="http://www.handsup.cn/user/loginbind" />
+		<property name="authorizeURL" value="https://api.weibo.com/2/oauth2/authorize" />
+		<property name="state" value="weibo"/>
+		<property name="responseType" value="code" />
+	</bean>
+	
+	<bean id="qqAuthLoginService" class="com.yiqixiao.biz.thrid.login.AuthLoginService">
+		<property name="oAuth2HttpsClient" ref="oAuth2HttpsClient" />
+		<property name="authTokenUrl" value="https://graph.qq.com/oauth2.0/token" />
+		<property name="userAccountUrl" value="https://graph.qq.com/oauth2.0/me" />
+		<property name="clientId" value="100224584" />
+		<property name="clientSecret" value="d6657cf90d623abe2e44317214254c79" />
+		<property name="grantType" value="authorization_code" />
+		<property name="redirectUri" value="http://www.handsup.cn/user/loginbind" />
+		<property name="authorizeURL" value="https://graph.qq.com/oauth2.0/authorize" />
+		<property name="state" value="qq"/>
+		<property name="responseType" value="code" />
+	</bean>
+	
 	
 </beans>

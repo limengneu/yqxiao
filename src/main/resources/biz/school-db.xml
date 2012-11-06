@@ -15,7 +15,7 @@
 		<property name="location" value="classpath:biz/school-db.properties" />
 	</bean>
 	
- 	<context:component-scan base-package="com.school" /> 
+ 	<context:component-scan base-package="com.yiqixiao" /> 
  	<!-- Add transaction support -->
 	<tx:annotation-driven />
 

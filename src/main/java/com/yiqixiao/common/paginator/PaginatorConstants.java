@@ -16,6 +16,8 @@ package com.yiqixiao.common.paginator;
  */
 public class PaginatorConstants {
 	
-	public final static int DEFAULT_PAGE_SIZE = 30;
+	public final static int DEFAULT_PAGE_SIZE = 40;
+	
+	public final static int DEFAULT_COMMENT_PAGE_SIZE = 20;
 
 }

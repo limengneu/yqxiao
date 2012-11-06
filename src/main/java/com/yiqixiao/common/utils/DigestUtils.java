@@ -11,7 +11,7 @@ package com.yiqixiao.common.utils;
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
 
-import com.yiqixiao.biz.thrid.exception.SchoolThridException;
+import com.yiqixiao.biz.thrid.exception.YqxiaoThridException;
 
 /**
  * @描述：
@@ -31,7 +31,7 @@ public class DigestUtils {
 
 		} catch (NoSuchAlgorithmException e) {
 
-			throw new SchoolThridException(e);
+			throw new YqxiaoThridException(e);
 		}
 	}
 

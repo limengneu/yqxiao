@@ -6,7 +6,7 @@
  * @作者：limeng
  * @时间：Aug 15, 20129:13:27 PM
  */
-package com.yiqixiao.teacher.controller;
+package com.yiqixiao.controller;
 
 import java.io.UnsupportedEncodingException;
 import java.net.URLDecoder;
@@ -29,7 +29,7 @@ import com.yiqixiao.biz.model.Vedio;
 import com.yiqixiao.biz.service.VedioService;
 import com.yiqixiao.biz.thrid.ThridVedioService;
 import com.yiqixiao.biz.thrid.util.VedioUploadConstans;
-import com.yiqixiao.teacher.utils.UrlPatternConsts;
+import com.yiqixiao.utils.UrlPatternConsts;
 
 /**
  * @描述：
@@ -107,7 +107,7 @@ public class ThridVedioController {
 			vedio.setPath(URLDecoder.decode(URLDecoder.decode(player,"UTF-8"),"UTF-8"));
 			String realPath=StringUtils.substringAfter(player, "v_");
 			realPath="open_"+realPath;
-			vedio.setRealPath(realPath);
+			vedio.setRealPath("http://player.56.com/3000000224/"+realPath);
 			vedio.setTitle(URLDecoder.decode(URLDecoder.decode(obejctMap.get(VedioUploadConstans.RESULT_VEDIO_SUBJECT),"UTF-8"),"UTF-8"));
 			vedio.setSummary(URLDecoder.decode(URLDecoder.decode(obejctMap.get(VedioUploadConstans.RESULT_VEDIO_MSG),"UTF-8"),"UTF-8"));
 		} catch (UnsupportedEncodingException e) {

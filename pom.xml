@@ -50,6 +50,12 @@
 			<artifactId>spring-orm</artifactId>
 			<version>${spring.version}</version>
 		</dependency>
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-test</artifactId>
+			<version>${spring.version}</version>
+			<scope>test</scope>
+		</dependency>
 
 		<!--Jpa hibernate Dependencies -->
 		<dependency>
@@ -135,6 +141,12 @@
 			<version>2.2.2</version>
 		</dependency>
 
+		<dependency>
+			<groupId>net.sf.json-lib</groupId>
+			<artifactId>json-lib</artifactId>
+			<version>2.4</version>
+			<classifier>jdk15</classifier>
+		</dependency>
 
 		<!-- Log4j Dependencies -->
 		<dependency>

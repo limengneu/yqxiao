@@ -8,9 +8,6 @@
  */
 package com.yiqixiao.biz.service;
 
-import static org.junit.Assert.*;
-
-import java.io.UnsupportedEncodingException;
 import java.net.URLDecoder;
 
 import org.apache.commons.lang.StringUtils;
@@ -39,4 +36,5 @@ public class VedioServiceTest {
 		System.out.println(str.substring(str.indexOf("msg=")+4,str.indexOf("&amp;subject") ));
 	}
 
+	
 }

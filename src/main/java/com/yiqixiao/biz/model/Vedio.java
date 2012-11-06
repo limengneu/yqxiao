@@ -46,6 +46,10 @@ public class Vedio extends BaseModel {
 	@Column
 	private String image;
 	@Column
+	private String mimage;
+	@Column
+	private String bimage;
+	@Column
 	private String status;
 	@Column
 	private String vid;
@@ -55,7 +59,18 @@ public class Vedio extends BaseModel {
 	@Column
 	private String  attach;
 
-
+	@Column
+	private String source; //来源
+	
+	@Column
+	private String style;//分类
+	
+	@Column
+	private Integer playerSum; //播放总数
+	
+	@Column
+	private Integer commentSum;//评论总数
+	
 	@Transient
 	private List<String> tagsList;
 	
@@ -278,7 +293,119 @@ public class Vedio extends BaseModel {
 	public void setAttach(String attach) {
 		this.attach = attach;
 	}
-	
-	
+
+
+
+
+	/**
+	 * @return the source
+	 */
+	public String getSource() {
+		return source;
+	}
+
+
+
+
+	/**
+	 * @param source the source to set
+	 */
+	public void setSource(String source) {
+		this.source = source;
+	}
+
+
+
+
+	/**
+	 * @return the style
+	 */
+	public String getStyle() {
+		return style;
+	}
+
+
+
+
+	/**
+	 * @param style the style to set
+	 */
+	public void setStyle(String style) {
+		this.style = style;
+	}
+
+
+
+
+	/**
+	 * @return the playerSum
+	 */
+	public Integer getPlayerSum() {
+		return playerSum;
+	}
+
+
+
+	/**
+	 * @param playerSum the playerSum to set
+	 */
+	public void setPlayerSum(Integer playerSum) {
+		this.playerSum = playerSum;
+	}
+
+	/**
+	 * @return the commentSum
+	 */
+	public Integer getCommentSum() {
+		return commentSum;
+	}
+
+	/**
+	 * @param commentSum the commentSum to set
+	 */
+	public void setCommentSum(Integer commentSum) {
+		this.commentSum = commentSum;
+	}
+
+
+
+
+	/**
+	 * @return the mimage
+	 */
+	public String getMimage() {
+		return mimage;
+	}
+
+
+
+
+	/**
+	 * @param mimage the mimage to set
+	 */
+	public void setMimage(String mimage) {
+		this.mimage = mimage;
+	}
+
+
+
+
+	/**
+	 * @return the bimage
+	 */
+	public String getBimage() {
+		return bimage;
+	}
+
+
+
+
+	/**
+	 * @param bimage the bimage to set
+	 */
+	public void setBimage(String bimage) {
+		this.bimage = bimage;
+	}
+
 
 }
