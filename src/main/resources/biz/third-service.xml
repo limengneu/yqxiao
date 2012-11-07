@@ -40,8 +40,8 @@
 	</bean>
 	
 	<bean id="vedioGetService" class="com.yiqixiao.biz.thrid.impl.VedioGetServiceImpl">
-		<property name="appkey" value="3000000224" />
-		<property name="secret" value="b885ea102ec7547a" />
+		<property name="appkey" value="3000000980" />
+		<property name="secret" value="4440e3f8bb672290" />
 		<property name="vedioInfoUrl" value="http://oapi.56.com/video/getVideoInfo.json" />
 		<property name="channelUrl" value="http://oapi.56.com/video/channel.json" />
 	</bean>

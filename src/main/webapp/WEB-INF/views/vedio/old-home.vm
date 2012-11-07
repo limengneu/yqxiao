@@ -1,0 +1,28 @@
+
+<script type="text/javascript" src="/js/jquery.masonry.min.js" ></script>
+ <div class="container masonry">
+      <!-- Main hero unit for a primary marketing message or call to action -->
+
+ <div class="row">
+	<div class="span6">
+<ul class="thumbnails masonry">
+	
+  #foreach($vedio in $vedios)
+
+  <li class="span3">
+    <div class="thumbnail">
+      <a href="/vedio/${vedio.id}" target="_blank"><img src="$vedio.image" width='200px' height='180px'></a>
+      <h5><a href="/vedio/${vedio.id}" target="_blank">${vedio.title}</a></h5>
+       <h6><a href="/vedio/${vedio.id}" target="_blank">${vedio.summary}</a></h6>
+    </div>
+  </li>
+
+  #end
+
+  
+ 
+  </ul>
+  </div>
+  </div>
+      <!-- Example row of columns -->
+</div>

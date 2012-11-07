@@ -1,0 +1,14 @@
+<!--底部开始-->
+<div id="footer">
+ <div class="footerline"></div>
+ <div class="jiange"></div>
+ <div class="footerbtn"><input name="goo" type="button" id="goo" /></div>
+ <div class="footertext">
+    <div class="footerlogo"><img src="images/footerlogo.gif" /></div>
+	<div class="footerlink"><a href="#">关于我们</a> | <a href="#">免责申明</a> | <a href="#">广告位置</a> | <a href="#">合作伙伴</a> | <a href="#">联络方式</a> | <a href="#">网站地图</a> | <a href="#">RSS订阅地图</a> | <a href="#">站长统计</a><br />
+
+版权所有 Copyright2012 www.yiqiwan.com  All rights reserved. 粤ICP备10217497号</div>
+ </div>
+</div>
+
+<!--底部结束-->

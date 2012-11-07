@@ -1,27 +1,250 @@
-<script type="text/javascript" src="/js/jquery.masonry.min.js" ></script>
- <div class="container masonry">
-      <!-- Main hero unit for a primary marketing message or call to action -->
-
- <div class="row">
-	<div class="span6">
-<ul class="thumbnails masonry">
+	<!--主体图box开始-->
+	   <div id="box">
+	      <!--第一行开始-->
+		  
+		     <!--1-1开始-->
+                <div id="k" style="float:left; left:0px; top:0px;">
+    
+                <div id="pc">
+                  <a href="list.html" target="_blank"><img src="images/img101.jpg" width="208" height="308" border="0"/></a>
+                  <div class="pc_wz">	
+           <div><a href="#" target="_blank"><img src="images/btn1.png" /></a></div>
+         </div>
+     </div>
+    
+                <div style="width:205px; line-height:20px; padding-left:10px; color:#666666;"><strong><font color="#2266aa">国内大冲关美女来挑战</font></strong><br />
+                07月06日晚，第56届韩国小姐选美大赛进入决赛阶段的比赛。来自首尔的金宥美力压群芳，成为了2012年韩国小姐冠军。有趣的是，许多网友评价金宥美有些角度与充满古典美的韩国女星朴敏英十分相似，引发热议。</div>
+                <div class="clearfix"><ul>
+                  <li><span class="like">81</span>&nbsp;观看</li>
+                <li><span class="collect">105</span>&nbsp;发表评论</li><li class="last"><span class="comment"><img src="images/liveico.gif" width="12" height="12" /></span>&nbsp;分享</li>
+                </ul></div>
+   </div>
+             <!--1-1结束-->
+			 
+			 <!--1-2开始-->
+                <div id="k" style="float:left; left:240px; top:0px;">
+    
+                <div id="pc">
+                  <a href="list.html" target="_blank"><img src="http://img01.taobaocdn.com/imgextra/i1/13465017329194054/T1Dl6xXj4aXXXXXXXX_!!379423465-0-pix.jpg_220x10000.jpg" width="208" height="318" border="0"/></a>
+                  <div class="pc_wz">	
+           <div><a href="list.html" target="_blank"><img src="images/btn1.png" /></a></div>
+         </div>
+     </div>
+    
+                <div style="width:205px; line-height:20px; padding-left:10px; color:#666666;"><strong><font color="#2266aa">有谁告诉我这谁，好面熟。</font></strong><br />
+                07月06日晚，第56届韩国小姐选美大赛进入决赛阶段的比赛。来自首尔的金宥美力压群芳。</div>
+                <div class="clearfix"><ul>
+                  <li><span class="like">81</span>&nbsp;观看</li>
+                <li><span class="collect">105</span>&nbsp;发表评论</li><li class="last"><span class="comment"><img src="images/liveico.gif" width="12" height="12" /></span>&nbsp;分享</li>
+                </ul></div>
+   </div>
+             <!--1-2结束-->
+			 
+			 <!--1-3开始-->
+                <div id="k" style="float:left; left:480px; top:0px;">
+    
+                <div id="pc">
+                  <a href="list.html" target="_blank"><img src="http://img04.taobaocdn.com/imgextra/i4/17997017312234094/T1q86vXghhXXXXXXXX_!!752357997-0-pix.jpg_220x10000.jpg" width="208" height="317" border="0"/></a>
+                  <div class="pc_wz">	
+           <div><a href="list.html" target="_blank"><img src="images/btn1.png" /></a></div>
+         </div>
+     </div>
+    
+                <div style="width:205px; line-height:20px; padding-left:10px; color:#666666;"><strong><font color="#2266aa">有谁告诉我这谁，好面熟。</font></strong><br />
+                07月06日晚，第56届韩国小姐选美大赛进入决赛阶段的比赛。来自首尔的金宥美力压群芳，成为了2012年韩国小姐冠军。有趣的是。</div>
+                <div class="clearfix"><ul>
+                  <li><span class="like">81</span>&nbsp;观看</li>
+                <li><span class="collect">105</span>&nbsp;发表评论</li><li class="last"><span class="comment"><img src="images/liveico.gif" width="12" height="12" /></span>&nbsp;分享</li>
+                </ul></div>
+   </div>
+             <!--1-3结束-->
+			 
+			 <!--1-4开始-->
+                <div id="k" style="float:left; left:720px; top:0px;">
+    
+                <div id="pc">
+                  <a href="list.html" target="_blank"><img src="http://img02.taobaocdn.com/imgextra/i2/13465017309709759/T1jA_wXapbXXXXXXXX_!!379423465-0-pix.jpg_220x10000.jpg" width="208" height="318" border="0"/></a>
+                  <div class="pc_wz">	
+           <div><a href="list.html" target="_blank"><img src="images/btn1.png" /></a></div>
+         </div>
+     </div>
+    
+                <div style="width:205px; line-height:20px; padding-left:10px; color:#666666;"><strong><font color="#2266aa">有谁告诉我这谁，好面熟。</font></strong><br />
+                07月06日晚，第56届韩国小姐选美大赛进入决赛阶段的比赛。来自首尔的金宥美力压群芳，成为了2012年韩国小姐冠军。有趣的是，许多网友评价金宥美有些角度与充满古典美。</div>
+                <div class="clearfix"><ul>
+                  <li><span class="like">81</span>&nbsp;观看</li>
+                <li><span class="collect">105</span>&nbsp;发表评论</li><li class="last"><span class="comment"><img src="images/liveico.gif" width="12" height="12" /></span>&nbsp;分享</li>
+                </ul></div>
+   </div>
+             <!--1-4结束-->
+			 
+		  <!--第一行结束-->  
+		  
+		  <!--第二行开始-->
+		  
+		     <!--2-1开始-->
+                <div id="k" style="float:left; left:0px; top:520px;">
+    
+                <div id="pc">
+                  <a href="list.html" target="_blank"><img src="http://img01.taobaocdn.com/imgextra/i1/13465017309693748/T1EWfsXeXrXXXXXXXX_!!379423465-0-pix.jpg_220x10000.jpg" width="208" height="317" border="0"/></a>
+                  <div class="pc_wz">	
+           <div><a href="list.html" target="_blank"><img src="images/btn1.png" /></a></div>
+         </div>
+     </div>
+    
+                <div style="width:205px; line-height:20px; padding-left:10px; color:#666666;"><strong><font color="#2266aa">国内大冲关美女来挑战</font></strong><br />
+                07月06日晚，第56届韩国小姐选美大赛进入决赛阶段的比赛。来自首尔的金宥美力压群芳，成为了2012年韩国小姐冠军。有趣的是，引发热议。</div>
+                <div class="clearfix"><ul>
+                  <li><span class="like">81</span>&nbsp;观看</li>
+                <li><span class="collect">105</span>&nbsp;发表评论</li><li class="last"><span class="comment"><img src="images/liveico.gif" width="12" height="12" /></span>&nbsp;分享</li>
+                </ul></div>
+   </div>
+             <!--2-1结束-->
+			 
+			 <!--2-2开始-->
+                <div id="k" style="float:left; left:240px; top:470px;">
+    
+                <div id="pc">
+                  <a href="list.html" target="_blank"><img src="http://img02.taobaocdn.com/imgextra/i2/13465017292098990/T11xvvXmxgXXXXXXXX_!!379423465-0-pix.jpg_220x10000.jpg" width="208" height="318" border="0"/></a>
+                  <div class="pc_wz">	
+           <div><a href="list.html" target="_blank"><img src="images/btn1.png" /></a></div>
+         </div>
+     </div>
+    
+                <div style="width:205px; line-height:20px; padding-left:10px; color:#666666;"><strong><font color="#2266aa">有谁告诉我这谁，好面熟。</font></strong><br />
+                07月06日晚，第56届韩国小姐选美大赛进入决赛阶段的比赛。</div>
+                <div class="clearfix"><ul>
+                  <li><span class="like">81</span>&nbsp;观看</li>
+                <li><span class="collect">105</span>&nbsp;发表评论</li><li class="last"><span class="comment"><img src="images/liveico.gif" width="12" height="12" /></span>&nbsp;分享</li>
+                </ul></div>
+   </div>
+             <!--2-2结束-->
+			 
+			 <!--2-3开始-->
+                <div id="k" style="float:left; left:480px; top:490px;">
+    
+                <div id="pc">
+                  <a href="list.html" target="_blank"><img src="http://img04.taobaocdn.com/imgextra/i4/13465017921887763/T1F.LuXjJjXXXXXXXX_!!379423465-0-pix.jpg_220x10000.jpg" width="208" height="354" border="0"/></a>
+                  <div class="pc_wz">	
+           <div><a href="list.html" target="_blank"><img src="images/btn1.png" /></a></div>
+         </div>
+     </div>
+    
+                <div style="width:205px; line-height:20px; padding-left:10px; color:#666666;"><strong><font color="#2266aa">有谁告诉我这谁，好面熟。</font></strong><br />
+                07月06日晚，第56届韩国小姐选美大赛进入决赛阶段的比赛。来自首尔的金宥美力压群芳，成为了2012年韩国小姐冠军。有趣的是。</div>
+                <div class="clearfix"><ul>
+                  <li><span class="like">81</span>&nbsp;观看</li>
+                <li><span class="collect">105</span>&nbsp;发表评论</li><li class="last"><span class="comment"><img src="images/liveico.gif" width="12" height="12" /></span>&nbsp;分享</li>
+                </ul></div>
+   </div>
+             <!--2-3结束-->
+			 
+			 <!--2-4开始-->
+                <div id="k" style="float:left; left:720px; top:510px;">
+    
+                <div id="pc">
+                  <a href="list.html" target="_blank"><img src="http://img04.taobaocdn.com/imgextra/i4/13465021842344432/T1gTDvXmleXXXXXXXX_!!379423465-0-pix.jpg_220x10000.jpg" width="208" height="358" border="0"/></a>
+                  <div class="pc_wz">	
+           <div><a href="list.html" target="_blank"><img src="images/btn1.png" /></a></div>
+         </div>
+     </div>
+    
+                <div style="width:205px; line-height:20px; padding-left:10px; color:#666666;"><strong><font color="#2266aa">有谁告诉我这谁，好面熟。</font></strong><br />
+                07月06日晚，第56届韩国小姐选美大赛进入决赛阶段的比赛。来自首尔的金宥美力压群芳，成为了2012年韩国小姐冠军。有趣的是，许多网友评价金宥美有些角度与充满古典美。</div>
+                <div class="clearfix"><ul>
+                  <li><span class="like">81</span>&nbsp;观看</li>
+                <li><span class="collect">105</span>&nbsp;发表评论</li><li class="last"><span class="comment"><img src="images/liveico.gif" width="12" height="12" /></span>&nbsp;分享</li>
+                </ul></div>
+   </div>
+             <!--2-4结束-->
+			 
+		  <!--第二行结束--> 
+		  
+		  <!--第三行开始-->
+		  
+		     <!--3-1开始-->
+                <div id="k" style="float:left; left:0px; top:1008px;">
+    
+                <div id="pc">
+                  <a href="list.html" target="_blank"><img src="http://img01.taobaocdn.com/imgextra/i1/13465017309693748/T1EWfsXeXrXXXXXXXX_!!379423465-0-pix.jpg_220x10000.jpg" width="208" height="330" border="0"/></a>
+                  <div class="pc_wz">	
+           <div><a href="list.html" target="_blank"><img src="images/btn1.png" /></a></div>
+         </div>
+     </div>
+    
+                <div style="width:205px; line-height:20px; padding-left:10px; color:#666666;"><strong><font color="#2266aa">国内大冲关美女来挑战</font></strong><br />
+                07月06日晚，第56届韩国小姐选美大赛进入决赛阶段的比赛。</div>
+                <div class="clearfix"><ul>
+                  <li><span class="like">81</span>&nbsp;观看</li>
+                <li><span class="collect">105</span>&nbsp;发表评论</li><li class="last"><span class="comment"><img src="images/liveico.gif" width="12" height="12" /></span>&nbsp;分享</li>
+                </ul></div>
+   </div>
+             <!--3-1结束-->
+			 
+			 <!--3-2开始-->
+                <div id="k" style="float:left; left:240px; top:920px;">
+    
+                <div id="pc">
+                  <a href="list.html" target="_blank"><img src="http://img02.taobaocdn.com/imgextra/i2/13465017292098990/T11xvvXmxgXXXXXXXX_!!379423465-0-pix.jpg_220x10000.jpg" width="208" height="318" border="0"/></a>
+                  <div class="pc_wz">	
+           <div><a href="list.html" target="_blank"><img src="images/btn1.png" /></a></div>
+         </div>
+     </div>
+    
+                <div style="width:205px; line-height:20px; padding-left:10px; color:#666666;"><strong><font color="#2266aa">有谁告诉我这谁，好面熟。</font></strong><br />
+                07月06日晚，第56届韩国小姐选美大赛进入决赛阶段的比赛。来自首尔的金宥美力压群芳，成为了2012年韩国小姐冠军。有趣的是。许多网友评价金宥美有些角度与充满古典美的韩国女星朴敏英十分相似，引发热议。韩国小姐冠军。有趣的是。</div>
+                <div class="clearfix"><ul>
+                  <li><span class="like">81</span>&nbsp;观看</li>
+                <li><span class="collect">105</span>&nbsp;发表评论</li><li class="last"><span class="comment"><img src="images/liveico.gif" width="12" height="12" /></span>&nbsp;分享</li>
+                </ul></div>
+   </div>
+             <!--3-2结束-->
+			 
+			 <!--3-3开始-->
+                <div id="k" style="float:left; left:480px; top:1015px;">
+    
+                <div id="pc">
+                  <a href="list.html" target="_blank"><img src="http://img04.taobaocdn.com/imgextra/i4/13465017921887763/T1F.LuXjJjXXXXXXXX_!!379423465-0-pix.jpg_220x10000.jpg" width="208" height="324" border="0"/></a>
+                  <div class="pc_wz">	
+           <div><a href="#" target="_blank"><img src="images/btn1.png" /></a></div>
+         </div>
+     </div>
+    
+                <div style="width:205px; line-height:20px; padding-left:10px; color:#666666;"><strong><font color="#2266aa">有谁告诉我这谁，好面熟。</font></strong><br />
+                07月06日晚，第56届韩国小姐选美大赛进入决赛阶。</div>
+                <div class="clearfix"><ul>
+                  <li><span class="like">81</span>&nbsp;观看</li>
+                <li><span class="collect">105</span>&nbsp;发表评论</li><li class="last"><span class="comment"><img src="images/liveico.gif" width="12" height="12" /></span>&nbsp;分享</li>
+                </ul></div>
+   </div>
+             <!--3-3结束-->
+			 
+			 <!--3-4开始-->
+                <div id="k" style="float:left; left:720px; top:1059px;">
+    
+                <div id="pc">
+                  <a href="list.html" target="_blank"><img src="http://img04.taobaocdn.com/imgextra/i4/13465021842344432/T1gTDvXmleXXXXXXXX_!!379423465-0-pix.jpg_220x10000.jpg" width="208" height="300" border="0"/></a>
+                  <div class="pc_wz">	
+           <div><a href="list.html" target="_blank"><img src="images/btn1.png" /></a></div>
+         </div>
+     </div>
+    
+                <div style="width:205px; line-height:20px; padding-left:10px; color:#666666;"><strong><font color="#2266aa">有谁告诉我这谁，好面熟。</font></strong><br />
+                07月06日晚。</div>
+                <div class="clearfix"><ul>
+                  <li><span class="like">81</span>&nbsp;观看</li>
+                <li><span class="collect">105</span>&nbsp;发表评论</li><li class="last"><span class="comment"><img src="images/liveico.gif" width="12" height="12" /></span>&nbsp;分享</li>
+                </ul></div>
+   </div>
+             <!--3-4结束-->
+			 
+		  <!--第三行结束--> 
+   </div>
+	<!--主体图box结束-->
 	
-  #foreach($vedio in $vedios)
-
-  <li class="span3">
-    <div class="thumbnail">
-      <a href="/vedio/${vedio.id}" target="_blank"><img src="$vedio.image" width='200px' height='180px'></a>
-      <h5><a href="/vedio/${vedio.id}" target="_blank">${vedio.title}</a></h5>
-       <h6><a href="/vedio/${vedio.id}" target="_blank">${vedio.summary}</a></h6>
-    </div>
-  </li>
-
-  #end
-
-  
- 
-  </ul>
-  </div>
-  </div>
-      <!-- Example row of columns -->
-</div>
+	<!--more开始-->
+	<div style="text-align:center; height:50px;"><a href="#"><img src="images/more.gif" border="0" /></a></div>
+	<!--more结束-->
+	
+ </div>
+<!--主体部分开始-->

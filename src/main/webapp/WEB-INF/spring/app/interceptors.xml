@@ -12,7 +12,7 @@
 		<bean id="pullToolPreparationInterceptor" class="com.yiqixiao.common.web.Interceptor.PullToolsPreparationInterceptor" >
 			<property name="tools">
 				<map>
-					<entry key="vedioServer" value="http://player.56.com/3000000224/"/>
+					<entry key="vedioServer" value="http://player.56.com/3000000980/"/>
 				</map>
 			</property>
 		</bean>

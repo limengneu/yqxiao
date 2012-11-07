@@ -1,0 +1,56 @@
+<!--顶部广告开始-->
+<div id="topad">
+  <div class="topadimg"><img src="images/topad.gif" width="920" height="30" /><a href="#" id="but"><img src="images/topad_closed.gif" border="0" /></a></div>
+</div>
+
+<!--顶部广告结束-->
+
+<!--顶部导航开始-->
+ <div id="topnav">
+   <div id="nav">
+    <div class="nav1"><img src="images/nav1.gif" width="53" height="49" /></div>  
+	<div class="nav2"><a href="indedx.html" target="_self"><img src="images/nava.gif" border="0" /></a></div>
+	<div class="nav3"><img src="images/nav2.gif" width="50" height="49" /></div>
+	<div class="nav4"><img src="images/nav3.gif" width="276" height="49" /></div>
+	<div class="nav5"><img src="images/nav4.gif" width="141" height="49" /></div> 
+	<div class="nav6"></div>  
+	<div class="nav7"><img src="images/nav5.gif" width="47" height="49" /></div>      
+  </div> 
+ </div>
+ <div id="logonav">
+   <ul>
+     <li><img src="images/logo.gif" /></li>
+	 <li style="width:344px;"><p></p></li>
+	 <li style="width:155px; padding-top:25px;">使用合作网站帐号登录</li>
+     <li style="width:125px; padding-top:15px; color:#FF0000; font-weight:bold;"><a href="#"><img src="images/sinabtn.gif" width="100" height="30" border="0" /></a></li>
+	 
+	 <li style="padding-top:15px;"><a href="#"><img src="images/qqbtn_26.gif" width="100" height="30" border="0" /></a></li>
+   </ul>
+</div>
+<!--顶部导航结束-->
+
+<!--主体部分开始-->
+ <div id="container">
+    <!--面包区开始-->
+     <div id="menu">
+   <ul class="menuul1">
+     <li style="width:20px;"><img src="images/crumbsico1.gif" border="0" /></li>
+     <li style="padding-top:2px; width:40px;"><font color="#FF0000">最新</font></li>
+	 <li style="width:20px;"><img src="images/crumbsico2.gif" /></li>
+	 <li style="padding-top:2px; width:40px;">流行</li>
+	 <li style="width:20px;"><img src="images/crumbsico3.gif" /></li>
+	 <li style="padding-top:2px; width:100px;">视频</li>
+   </ul>
+   <ul class="menuul2">
+     <li><a href="#">搞笑热点</a></li>
+     <li><a href="#">疯狂恶搞</a></li>
+	 <li><a href="#">可爱萌宠</a></li>
+	 <li><a href="#">原创搞笑</a></li>
+	 <li><a href="#">宅男宅女</a></li>
+	 <li><a href="#">搞笑综艺</a></li>
+	 <li><a href="#">雷人囧事</a></li>
+	 <li><a href="#">经典回顾</a></li>
+	 <li><a href="#">搞笑排行榜</a></li>
+   </ul>
+ </div>	  
+	<!--面包区结束-->
